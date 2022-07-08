@@ -57,7 +57,7 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    max-width: 100%;
 }
 
 [class^="flaticon-"]:before,
@@ -2453,12 +2453,10 @@ a:focus {
     border: white;
 }
 
-#project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+
+/* #project {
+    width: 100%;
+} */
 
 .project_card {
     width: 200px;
@@ -2829,6 +2827,10 @@ a:focus {
     .project_card img {
         width: 115%;
     }
+    .card1,
+    .card2 {
+        margin-right: 77px;
+    }
     .card3,
     .card4 {
         margin-left: 77px;
@@ -2894,6 +2896,14 @@ a:focus {
     font-family: Lucida, sans-serif;
 }
 
+.card1,
+.card2,
+.card3,
+.card4 {
+    background-color: white;
+    /* margin-right: 100px; */
+}
+
 @media (max-width: 768px) {
     .grid-c {
         /* display: none; */
@@ -2937,7 +2947,7 @@ a:focus {
         display: grid;
         justify-content: center;
         align-items: center;
-        margin-right: 60px;
+        margin-right: 70px;
     }
     .card-css .card {
         width: 500px;
@@ -2977,5 +2987,11 @@ a:focus {
         margin: auto;
         /* margin-left: 20px; */
     }
-    .card-custom {}
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        background-color: white;
+        margin-right: 100px;
+    }
 }
