@@ -2354,7 +2354,9 @@ a:focus {
 }
 
 .paragrapgh p {
+    width: 80%;
     text-align: justify;
+    font-size: 15px;
 }
 
 .para {}
@@ -2448,6 +2450,13 @@ a:focus {
     height: 2rem;
     font-weight: 650;
     border: white;
+}
+
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .project_card {
@@ -2906,13 +2915,20 @@ a:focus {
     }
 }
 
-
-/* @media (max-width: 500px) {
-    .grid-c {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0;
+@media (max-width: 768px) {
+    .card-custom {
+        display: grid;
+        /* grid-template-rows: 2fr 2fr; */
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        /* display: none; */
     }
-    .grid-c>article {
-        text-align: center;
+    .card-css {
+        margin: 200px;
     }
-} */
+    .navbar-toggler {
+        margin-left: 500px !important;
+    }
+}
