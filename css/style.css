@@ -2915,6 +2915,18 @@ a:focus {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .card-css {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .navbar-toggler {
+        margin-left: 150px !important;
+    }
+}
+
 @media (max-width: 768px) {
     .card-custom {
         display: grid;
@@ -2924,11 +2936,5 @@ a:focus {
         align-items: center;
         margin-right: 60px;
         /* display: none; */
-    }
-    .card-css {
-        margin: 200px;
-    }
-    .navbar-toggler {
-        margin-left: 200px !important;
     }
 }
