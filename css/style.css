@@ -550,7 +550,8 @@ a:focus {
         font-size: 35px;
     }
     .carousel .carousel-text p {
-        font-size: 16px;
+        font-size: 15px;
+        width: 70%;
     }
     .carousel .carousel-text .btn {
         padding: 12px 30px;
@@ -2345,7 +2346,7 @@ a:focus {
 }
 
 .paragrapgh {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: -50px;
     font-weight: 500;
     width: 100%;
@@ -2922,7 +2923,11 @@ a:focus {
         align-items: center;
         margin: auto;
     }
-    .navbar-toggler {
+    .card3,
+    .card4 {
+        margin-top: 25px;
+    }
+    .card .navbar-toggler {
         margin-left: 150px !important;
     }
 }
@@ -2930,11 +2935,21 @@ a:focus {
 @media (max-width: 768px) {
     .card-custom {
         display: grid;
-        /* grid-template-rows: 2fr 2fr; */
-        /* flex-wrap: wrap; */
         justify-content: center;
         align-items: center;
         margin-right: 60px;
-        /* display: none; */
+    }
+    .card-css .card {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-css .card {
+        width: 300px;
+    }
+    * {
+        white-space: wrap;
+        /* overflow-x: hidden; */
     }
 }
