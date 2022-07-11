@@ -2350,6 +2350,7 @@ a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
     /* text-align: center; */
     margin-top: -50px;
     font-weight: 500;
@@ -2979,7 +2980,19 @@ a:focus {
 
 @media only screen and (max-width: 320px) {
     .card-css .card {
-        width: 400px;
+        width: 300px;
+    }
+    .grid-c>article img {
+        width: 300px;
+    }
+    .grid-c>article {
+        width: 300px;
+    }
+    .paragrapgh h3 {
+        width: 100%;
+    }
+    .para {
+        width: 100%;
     }
     .navbar-toggler {
         margin-left: 100px !important;
