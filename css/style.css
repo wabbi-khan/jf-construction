@@ -2334,7 +2334,8 @@ a:focus {
     }
 }
 
-.explore button {
+
+/* .explore button {
     width: 150px;
     color: white;
     font-weight: bold;
@@ -2343,7 +2344,7 @@ a:focus {
     border: 0;
     height: 36px;
     font-family: sans-serif;
-}
+} */
 
 .paragrapgh {
     display: flex;
@@ -2912,6 +2913,35 @@ a:focus {
     font-family: Lucida, sans-serif;
 }
 
+.experts button {
+    color: black;
+    border: none;
+}
+
+.experts button:hover {
+    color: black;
+}
+
+.explore-btn {
+    background-color: #fcb100;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+}
+
+.explore-btn:hover {
+    background-color: #fcb100;
+    color: black;
+}
+
+.copy-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
 @media (max-width: 768px) {
     .grid-c {
         /* display: none; */
@@ -2960,6 +2990,10 @@ a:focus {
     .card-css .card {
         width: 500px;
     }
+    .site-footer iframe {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -2976,11 +3010,18 @@ a:focus {
     .grid-c>article {
         width: 350px;
     }
+    .site-footer iframe {
+        width: 350px;
+        height: 200px;
+    }
+    .copy-right {
+        margin-left: 70px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .card-css .card {
-        width: 300px;
+        width: 300px !important;
     }
     .grid-c>article img {
         width: 300px;
@@ -3012,10 +3053,31 @@ a:focus {
         /* margin-left: 20px; */
     }
     .card1,
-    .card2,
+    .card2 {
+        background-color: white;
+        margin-left: 100px;
+    }
+    .site-footer iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .copy-right {
+        margin-left: 60px;
+    }
+    .section-title {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 375px) {
     .card3,
     .card4 {
-        background-color: white;
-        margin-right: 100px;
+        margin-right: 80px;
+    }
+    .paragrapgh h3 {
+        text-align: center;
+    }
+    .card-css .card {
+        width: 350px;
     }
 }
