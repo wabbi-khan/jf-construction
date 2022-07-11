@@ -2346,7 +2346,11 @@ a:focus {
 }
 
 .paragrapgh {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
     margin-top: -50px;
     font-weight: 500;
     /* width: 100%; */
@@ -2355,28 +2359,23 @@ a:focus {
 }
 
 .paragrapgh p {
-    width: 80%;
+    width: 95%;
     text-align: justify;
     font-size: 15px;
 }
 
-.para {}
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
 
-
-/* .section-title p{
+.para {
     width: 100%;
     text-align: justify;
-} */
-
-
-/*.paragrapgh1 {
-    margin-left: 40px;
-    margin-top: -50px;
-    font-weight: 500;
-    color: black;
-    
-
-}*/
+}
 
 .card {
     width: 200px;
@@ -2855,16 +2854,6 @@ a:focus {
     padding-bottom: 30px;
 }
 
-
-/* .grid-c {
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1px;
-    align-items: stretch;
-    margin-top: -190px;
-} */
-
 .grid-c>article {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
@@ -2888,7 +2877,13 @@ a:focus {
 }
 
 .text-c {
-    padding: 0 20px 20px;
+    /* padding: 0 20px 20px; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 
 .text-c>h3 {
@@ -2902,6 +2897,18 @@ a:focus {
 .card4 {
     background-color: white;
     /* margin-right: 100px; */
+}
+
+.paragrapgh1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrapgh1 p {
+    text-align: justify;
+    font-family: Lucida, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -2956,19 +2963,23 @@ a:focus {
 
 @media only screen and (max-width: 425px) {
     .card-css .card {
-        width: 300px;
+        width: 400px;
     }
     .para {
         font-size: 15px;
-        text-align: center;
-        /* white-space: wrap; */
-        /* overflow-x: hidden; */
+        /* text-align: center; */
+    }
+    .grid-c>article img {
+        width: 350px;
+    }
+    .grid-c>article {
+        width: 350px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .card-css .card {
-        width: 300px;
+        width: 400px;
     }
     .navbar-toggler {
         margin-left: 100px !important;
