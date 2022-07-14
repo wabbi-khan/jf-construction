@@ -2914,10 +2914,12 @@ a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .paragrapgh1 p {
-    text-align: justify;
+    /* text-align: justify; */
+    width: 100%;
     font-family: Lucida, sans-serif;
 }
 
