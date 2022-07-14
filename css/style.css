@@ -3021,7 +3021,7 @@ a:focus {
         width: 350px;
     }
     .site-footer iframe {
-        width: 350px;
+        width: 330px;
         height: 200px;
     }
     .copy-right {
@@ -3084,7 +3084,7 @@ a:focus {
         margin-left: 100px;
     }
     .site-footer iframe {
-        width: 300px;
+        width: 280px;
         height: 200px;
     }
     .copy-right {
@@ -3109,5 +3109,9 @@ a:focus {
     }
     .card-css .card {
         width: 350px;
+    }
+    .site-footer iframe {
+        width: 280px;
+        height: 200px;
     }
 }
