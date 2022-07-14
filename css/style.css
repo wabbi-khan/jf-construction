@@ -2763,7 +2763,7 @@ a:focus {
     -ms-flex-align: center;
     align-items: center;
     height: 100vh;
-    padding: 0 45px 0 45px;
+    padding: 0 45px 30px 45px;
 }
 
 #home .home-thumb h2 {
@@ -3113,5 +3113,9 @@ a:focus {
     .site-footer iframe {
         width: 280px;
         height: 200px;
+    }
+    .section-title h2 {
+        margin-top: 20px;
+        padding-bottom: 20px;
     }
 }
